@@ -12,5 +12,5 @@ router.register(r'credentials', views.EmailCredentialViewSet)
 router.register(r'scheduled-emails', views.ScheduledEmailViewSet)
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('mail/', include(router.urls)),
 ]
